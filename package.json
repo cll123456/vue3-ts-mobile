@@ -1,0 +1,33 @@
+{
+  "name": "vue3-ts-mobile",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie < 8",
+    "last 2 versions",
+    "> 1%",
+    "iOS 7",
+    "last 3 iOS versions"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vant": "^3.0.9",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.4",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.4",
+    "postcss-pxtorem": "^5.1.1",
+    "sass": "^1.32.8",
+    "typescript": "^4.1.3",
+    "vite": "^2.0.5"
+  }
+}
