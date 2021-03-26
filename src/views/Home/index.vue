@@ -8,7 +8,7 @@
       <van-grid-item icon="photo-o" text="保险事项变更" />
     </van-grid>
   </div>
-  <layout-footer />
+  <layout-footer :msgNum="10"/>
 </template>
 
 <script lang="ts">

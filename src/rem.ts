@@ -16,3 +16,5 @@ window.onresize = function () {
   console.log("我执行了")
   setRem()
 }
+
+export {}
