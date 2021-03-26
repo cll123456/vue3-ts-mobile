@@ -5,7 +5,12 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "./",//打包路径
+  // base: "./",//打包路径
+  base: '/vue3-ts-mobile/',
+  build:{
+    outDir: 'docs',
+    assetsDir: 'assets',
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')//设置别名
