@@ -10,14 +10,15 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import("../views/Home/index.vue"),
   },
   {
-    path: "/taskList",
-    name: "TaskList",
+    path: "/mine",
+    name: "Mine",
     meta: {
-      title: "任务明细",
+      title: "个人中心",
       keepAlive: true
     },
-    component: () => import("../views/taskList/index.vue"),
+    component: () => import("../views/mine/index.vue"),
   },
+ 
 ];
 const router = createRouter({
   history: createWebHashHistory(),

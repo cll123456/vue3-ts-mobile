@@ -1,11 +1,15 @@
 <template>
-  <layout-header :title="'工作台'" showBtn />
+  <layout-header :title="'主页面'" showBtn />
   <div class="index-body-container">
     <van-grid :column-num="3">
-      <van-grid-item icon="photo-o" text="采购" />
-      <van-grid-item icon="photo-o" text="退垫支" />
-      <van-grid-item icon="photo-o" text="保险事项变更" />
-      <van-grid-item icon="photo-o" text="保险事项变更" />
+      <van-grid-item icon="photo-o" text="功能1" />
+      <van-grid-item icon="photo-o" text="功能2" />
+      <van-grid-item icon="photo-o" text="功能3" />
+      <van-grid-item icon="photo-o" text="功能4" />
+       <van-grid-item icon="photo-o" text="功能1" />
+      <van-grid-item icon="photo-o" text="功能2" />
+      <van-grid-item icon="photo-o" text="功能3" />
+      <van-grid-item icon="photo-o" text="功能4" />
     </van-grid>
   </div>
   <layout-footer :msgNum="10"/>

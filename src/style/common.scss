@@ -86,3 +86,9 @@
     border-radius: 4px;
   }
 }
+
+// 列表容器高度
+.list-container {
+  height: calc(100vh - 105px);
+  overflow-y: auto;
+}

@@ -36,7 +36,7 @@ export default {
 <style lang="scss" scoped>
 .header-container {
   height: 60px;
-  background: linear-gradient(45deg, #ff9700, #ed1c24);
+  background: linear-gradient(45deg, #fc9681, #409EFF);
   display: flex;
   align-items: center;
   justify-content: center;

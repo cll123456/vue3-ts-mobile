@@ -1,17 +1,17 @@
 <template>
-  <van-tabbar route active-color="#ee0a24" inactive-color="#ccc" safe-area-inset-bottom>
-    <van-tabbar-item replace to="/" icon="apps-o">首页</van-tabbar-item>
+  <van-tabbar route active-color="#fc9681" inactive-color="#ccc" safe-area-inset-bottom>
+    <van-tabbar-item replace to="/" icon="wap-home-o">主页面</van-tabbar-item>
     <van-tabbar-item
       v-if="msgNum > 0"
       replace
-      to="/taskList"
-      icon="orders-o"
+      to="/mine"
+      icon="manager-o"
       :badge="msgNum"
     >
-      任务
+      个人中心
     </van-tabbar-item>
-    <van-tabbar-item v-else replace to="/taskList" icon="orders-o">
-      任务
+    <van-tabbar-item v-else replace to="/mine" icon="manager-o">
+      个人中心
     </van-tabbar-item>
   </van-tabbar>
 </template>

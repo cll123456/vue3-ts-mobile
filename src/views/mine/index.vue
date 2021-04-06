@@ -1,15 +1,8 @@
 <template>
-  <layout-header :title="'任务明细'" showBtn />
-  <van-tabs
-    v-model:active="active"
-    animated
-    swipeable
-    sticky
-    title-active-color="#f37b1d"
-  >
-    <van-tab title="待处理" :name="ENavTypes.willDeal"> 待处理 </van-tab>
-    <van-tab title="已处理" :name="ENavTypes.didDeal"> 已处理 </van-tab>
-  </van-tabs>
+  <layout-header :title="'个人中心'" showBtn />
+  <div class="list-container">
+    <img src="./../../assets/mine.png" style="width: 100%" />
+  </div>
   <layout-footer :msgNum="10" />
 </template>
 

@@ -17,13 +17,11 @@ export default defineConfig({
     }
   },
   server: {
-    port: 4000,//启动端口
-    open: true,
+    port: 5000,//启动端口
     proxy: {
       // 选项写法
       // '/api': 'http://123.56.85.24:5000'//代理网址
     },
-    cors: true
   }
 
 })

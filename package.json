@@ -1,7 +1,7 @@
 {
   "name": "vue3-ts-mobile",
   "version": "1.0.0",
-  "homepage":"./",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
