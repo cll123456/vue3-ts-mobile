@@ -1,7 +1,8 @@
 > 大家都知道，移动端喝pc端的区别在于的是，移动端怎么做适配。还有vue3 和 ts 如何进行结合。本人抱着`more interest, less interests`的目的。来记录自己在开发过程中的一些公共的方面。来帮助更多的技术人.
 
 # 效果
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2021032618255042.gif#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210406175346815.gif#pic_center)
+
 > 作为移动端最关键的页面兼容问题，在本项目是已经解决了的。
 源码地址： [https://github.com/cll123456/vue3-ts-mobile.git](https://github.com/cll123456/vue3-ts-mobile.git)
 演示地址： [https://cll123456.github.io/vue3-ts-mobile/#/](https://cll123456.github.io/vue3-ts-mobile/#/)
